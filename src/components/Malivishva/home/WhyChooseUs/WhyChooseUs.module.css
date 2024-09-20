@@ -1,0 +1,42 @@
+.whyChooseUs {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .whyChooseUs h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .points {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .point {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .point h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .point p {
+    display: none;
+    font-size: 1rem;
+  }
+  
+  .point:hover {
+    transform: scale(1.05);
+  }
+  
+  .point:hover p {
+    display: block;
+  }

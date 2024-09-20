@@ -1,0 +1,59 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center; /* Vertically center items */
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  padding: 20px;
+  background: rgb(255, 255, 255); /* Overlay on hero image */
+  color: #000000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  flex: 1; /* Grow to take available space on the left */
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex: 2; /* Center aligned */
+  justify-content: center; /* Center items within this space */
+}
+
+.navLinks li {
+  margin: 0;
+}
+
+.navLinks li a {
+  color: #3a393f;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.navLinks li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.login {
+  flex: 1; /* Grow to take available space on the right */
+  text-align: right; /* Align text to the right */
+}
+
+.login a {
+  color: #464343;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-right: 5rem;
+}
+
+.login a:hover {
+  border-bottom: 2px solid #fff;
+}
