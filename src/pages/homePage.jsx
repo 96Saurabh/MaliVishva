@@ -1,13 +1,15 @@
-import Navbar from "../components/CommonComponent/Navbar/Navbar"
-import HeroSlider from "../components/Malivishva/home/HeroSlider/HeroSlider"
+import HeroSlider from "../components/Malivishva/home/HeroSlider/HeroSlider";
+import ContentSection from "../components/Malivishva/home/Section/Section";
+import CardSection from "../components/Malivishva/home/CardSection/CardSection"
 
-function homePage() {
+function HomePage() {
   return (
     <div>
-      <Navbar/>
-      <HeroSlider/>
+      <HeroSlider />
+      <ContentSection/>
+      <CardSection/>
     </div>
-  )
+  );
 }
 
-export default homePage
+export default HomePage;

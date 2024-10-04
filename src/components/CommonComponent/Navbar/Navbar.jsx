@@ -36,7 +36,7 @@ function Navbar() {
             <img src={"https://landing.malivishva.online/wp-content/uploads/2024/05/mali-vishwa-logo.png"} alt="Mali Vishva Logo" />
           </div>
           <div className={style["menu-links"]}>
-            <a href="/home">HOME</a>
+            <a href="/">HOME</a>
             <a href="/about-us">ABOUT US</a>
             <a href="/faqs">FQA</a>
             <a href="/blog">BLOG</a>

@@ -1,0 +1,13 @@
+.footer {
+    height: 40vh;
+    background-color: #808080; /* Grey color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  

@@ -1,0 +1,41 @@
+.maincard{
+  background-color: #007bff;
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 400px;
+    height: 450px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    text-align: center;
+    
+  }
+  
+  .image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .cardContent {
+    padding: 15px;
+    
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
